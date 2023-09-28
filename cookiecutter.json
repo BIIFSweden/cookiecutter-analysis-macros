@@ -3,5 +3,8 @@
     "project_title": "My awesome BIIF project",
     "project_description": "A BIIF project embarking on a great endeavour",
     "biif_developer_name": "Firstname Lastname",
-    "biif_developer_email": "firstname.lastname@scilifelab.se"
+    "biif_developer_email": "firstname.lastname@scilifelab.se",
+    "include_fiji": false,
+    "include_qupath": false,
+    "include_cellprofiler": false
 }

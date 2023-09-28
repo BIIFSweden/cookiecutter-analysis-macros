@@ -8,6 +8,18 @@
 
 ## Installation
 
+{%- if cookiecutter.include_fiji -%}
+<!-- TODO Fiji installation instructions (including version) -->
+{% endif %}
+
+{%- if cookiecutter.include_qupath -%}
+<!-- TODO QuPath installation instructions (including version) -->
+{% endif %}
+
+{%- if cookiecutter.include_cellprofiler -%}
+<!-- TODO CellProfiler installation instructions (including version) -->
+{% endif %}
+
 ## Usage
 
 ## Cite
@@ -15,6 +27,18 @@
 ```
 Author list ({% now 'local', '%Y' %}). Title. Zenodo. https://doi.org/... .
 ```
+
+{%- if cookiecutter.include_fiji -%}
+<!-- TODO Fiji citation -->
+{% endif %}
+
+{%- if cookiecutter.include_qupath -%}
+<!-- TODO QuPath citation -->
+{% endif %}
+
+{%- if cookiecutter.include_cellprofiler -%}
+<!-- TODO CellProfiler citation -->
+{% endif %}
 
 ## License
 
